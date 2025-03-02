@@ -1,1 +1,64 @@
-<h1 class="text-red font-bold py-5 ">Home page</h1>
+<section
+  class="max-w-6xl mx-auto text-center p-6 bg-white rounded-3xl py-10 shadow mt-8 border border-gray-100"
+>
+  <h2 class="text-3xl font-bold text-gray-900 mb-2">Bạn muốn chọn du thuyền Hạ
+    Long nào?</h2>
+  <p class="text-gray-500 mb-6">Hơn 100 tour du thuyền đang được giá tốt đang
+    chờ bạn</p>
+
+  <div class="flex flex-col md:flex-row items-center gap-4">
+    <!-- Search Input -->
+    <div class="relative w-full md:w-1/2">
+      <input
+        type="text"
+        placeholder="Nhập tên du thuyền"
+        class="w-full pl-10 p-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#77dada] focus:border-transparent"
+      />
+      <span
+        class="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
+      >
+        <svg
+          class="w-5 h-5"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+          ></path>
+        </svg>
+      </span>
+    </div>
+
+    <!-- Location Dropdown -->
+    <select
+      class="w-full md:w-1/4 p-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#77dada] focus:border-transparent"
+    >
+      <option value="">Tất cả địa điểm</option>
+      <option value="halong">Hạ Long</option>
+      <option value="danang">Đà Nẵng</option>
+      <!-- Thêm các địa điểm khác nếu cần -->
+    </select>
+
+    <!-- Price Dropdown -->
+    <select
+      class="w-full md:w-1/4 p-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#77dada] focus:border-transparent"
+    >
+      <option value="">Tất cả mức giá</option>
+      <option value="low">Dưới 1 triệu</option>
+      <option value="medium">1-3 triệu</option>
+      <option value="high">Trên 3 triệu</option>
+    </select>
+
+    <!-- Search Button -->
+    <button
+      class="w-full md:w-[12rem] bg-[#77dada] hover:text-white p-3 rounded-full hover:bg-[#0e4f4f] transition-colors"
+    >
+      Tìm kiếm
+    </button>
+  </div>
+</section>
