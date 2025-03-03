@@ -1,6 +1,8 @@
-const homeRouter = require("./hotel");
+const homeRouter = require('./hotel');
+const blogRouter = require('./blog');
 function route(app) {
-  app.use("/", homeRouter);
+    app.use('/blog', blogRouter);
+    app.use('/', homeRouter);
 }
 
 module.exports = route;
