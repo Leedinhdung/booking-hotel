@@ -1,0 +1,236 @@
+<main class="max-w-7xl mx-auto px-6 py-12 mt-24">
+  <section class="mb-12">
+    <h2 class="text-4xl font-bold text-gray-900 mb-4">Tất cả Khách sạn</h2>
+    <p class="text-gray-600 mb-6">Khám phá hàng nghìn khách sạn với mức giá tốt
+      nhất tại MixiVivu.</p>
+    <div class="w-16 h-1 bg-[#77dada]"></div>
+  </section>
+
+  <div class="flex flex-col lg:flex-row gap-8">
+    <!-- Sidebar (Filters) -->
+    <aside
+      class="w-full lg:w-1/4 bg-white rounded-2xl shadow-md p-6 border border-gray-100 max-h-[600px] overflow-y-auto"
+    >
+      <div class="flex justify-between border-b">
+        <h3 class="text-xl font-semibold text-gray-900 mb-4">Lọc kết quả</h3>
+        <button class="text-gray-500 hover:text-gray-900 mb-4">Đặt lại</button>
+      </div>
+
+      <!-- Lọc theo số sao -->
+      <div class="my-6">
+        <h4 class="text-lg font-medium text-gray-900 mb-2">Xếp hạng sao</h4>
+        <div class="space-y-2">
+          <label class="flex items-center">
+            <input type="checkbox" class="mr-2" name="stars" value="3" />
+            <span class="text-gray-700">3 sao</span>
+          </label>
+          <label class="flex items-center">
+            <input type="checkbox" class="mr-2" name="stars" value="4" />
+            <span class="text-gray-700">4 sao</span>
+          </label>
+          <label class="flex items-center">
+            <input type="checkbox" class="mr-2" name="stars" value="5" />
+            <span class="text-gray-700">5 sao</span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Lọc theo tiện ích -->
+      <div>
+        <h4 class="text-lg font-medium text-gray-900 mb-2">Tiện ích</h4>
+        <div class="space-y-2">
+          <label class="flex items-center">
+            <input type="checkbox" class="mr-2" name="amenities" value="pool" />
+            <span class="text-gray-700">Bể bơi ngoài trời</span>
+          </label>
+          <label class="flex items-center">
+            <input
+              type="checkbox"
+              class="mr-2"
+              name="amenities"
+              value="restaurant"
+            />
+            <span class="text-gray-700">Nhà hàng</span>
+          </label>
+          <label class="flex items-center">
+            <input type="checkbox" class="mr-2" name="amenities" value="wifi" />
+            <span class="text-gray-700">WiFi miễn phí</span>
+          </label>
+          <label class="flex items-center">
+            <input type="checkbox" class="mr-2" name="amenities" value="24h" />
+            <span class="text-gray-700">Lễ tân 24h</span>
+          </label>
+          <label class="flex items-center">
+            <input
+              type="checkbox"
+              class="mr-2"
+              name="amenities"
+              value="bathroom"
+            />
+            <span class="text-gray-700">Phòng có phòng tắm</span>
+          </label>
+          <label class="flex items-center">
+            <input
+              type="checkbox"
+              class="mr-2"
+              name="amenities"
+              value="balcony"
+            />
+            <span class="text-gray-700">Ban công / Cửa sổ</span>
+          </label>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Danh sách khách sạn -->
+    <div class="w-full lg:w-3/4">
+      <div class="space-y-6 mb-10">
+        <div
+          class="bg-white rounded-4xl shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow duration-300"
+        >
+          <div class="flex flex-col md:flex-row items-center p-4 gap-5">
+            <div class="w-full md:w-2/4 ">
+              <img
+                src="/image/phu-quoc.webp"
+                alt="Sol by Melia Phú Quốc"
+                class="w-full h-64 object-cover rounded-3xl shadow-md overflow-hidden border border-gray-100"
+              />
+            </div>
+            <div class="flex-grow p-2">
+              <div
+                class="flex flex-col md:flex-row justify-between items-start mb-2"
+              >
+                <div class="flex w-full justify-between items-center gap-2">
+                  <span
+                    class="bg-yellow-100 text-yellow-800 text-xs font-semibold px-2 py-1 rounded-full"
+                  >
+                    ★★★★★ (5.0/5 đánh giá)
+                  </span>
+                   <span class="text-gray-500 text-sm mt-2 md:mt-0"><i
+                    class="fa-solid fa-location-dot"
+                  ></i>
+                  Phú Quốc</span>
+                </div>
+               
+              </div>
+              <h3 class="text-2xl font-bold text-gray-900 mb-1">Sol by Melia Phú
+                Quốc</h3>
+              <div class="flex gap-2 items-center text-gray-600">
+                <i class="fa-solid fa-couch"></i>
+                <p class=" text-sm mb-1">
+
+                  284 phòng
+                </p>
+              </div>
+
+              <div class="flex flex-wrap gap-2 py-5">
+                <span class="text-xs bg-[#f2f4f7] px-2 py-1 rounded-full">Phòng
+                  có bồn tắm</span>
+                <span class="text-xs bg-[#f2f4f7] px-2 py-1 rounded-full">Phòng
+                  có bồn tắm</span>
+                <span class="text-xs bg-[#f2f4f7] px-2 py-1 rounded-full">Phòng
+                  có bồn tắm</span>
+              </div>
+              <div class="border-b border-gray-200"></div>
+              <div
+                class="flex flex-col md:flex-row justify-between items-center mt-5 gap-4"
+              >
+                <div>
+                  <p
+                    class="text-gray-400 font-semibold text-sm line-through"
+                  >2,500,000 đ/phòng</p>
+                  <p class="font-bold text-base mb-2">2,350,000 đ/phòng</p>
+                </div>
+                <div>
+                  <button
+                    class="bg-[#77dada] text-white px-5 py-2 rounded-full hover:bg-[#0e4f4f] transition-colors duration-300 text-sm"
+                  >
+                    Đặt ngay
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="space-y-6 mb-10">
+        <div
+          class="bg-white rounded-4xl shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow duration-300"
+        >
+          <div class="flex flex-col md:flex-row items-center p-4 gap-5">
+            <div class="w-full md:w-2/4 ">
+              <img
+                src="/image/phu-quoc.webp"
+                alt="Sol by Melia Phú Quốc"
+                class="w-full h-64 object-cover rounded-3xl shadow-md overflow-hidden border border-gray-100"
+              />
+            </div>
+            <div class="flex-grow p-2">
+              <div
+                class="flex flex-col md:flex-row justify-between items-start mb-2"
+              >
+                <div class="flex w-full justify-between items-center gap-2">
+                  <span
+                    class="bg-yellow-100 text-yellow-800 text-xs font-semibold px-2 py-1 rounded-full"
+                  >
+                    ★★★★★ (5.0/5 đánh giá)
+                  </span>
+                   <span class="text-gray-500 text-sm mt-2 md:mt-0"><i
+                    class="fa-solid fa-location-dot"
+                  ></i>
+                  Phú Quốc</span>
+                </div>
+               
+              </div>
+              <h3 class="text-2xl font-bold text-gray-900 mb-1">Sol by Melia Phú
+                Quốc</h3>
+              <div class="flex gap-2 items-center text-gray-600">
+                <i class="fa-solid fa-couch"></i>
+                <p class=" text-sm mb-1">
+
+                  284 phòng
+                </p>
+              </div>
+
+              <div class="flex flex-wrap gap-2 py-5">
+                <span class="text-xs bg-[#f2f4f7] px-2 py-1 rounded-full">Phòng
+                  có bồn tắm</span>
+                <span class="text-xs bg-[#f2f4f7] px-2 py-1 rounded-full">Phòng
+                  có bồn tắm</span>
+                <span class="text-xs bg-[#f2f4f7] px-2 py-1 rounded-full">Phòng
+                  có bồn tắm</span>
+              </div>
+              <div class="border-b border-gray-200"></div>
+              <div
+                class="flex flex-col md:flex-row justify-between items-center mt-5 gap-4"
+              >
+                <div>
+                  <p
+                    class="text-gray-400 font-semibold text-sm line-through"
+                  >2,500,000 đ/phòng</p>
+                  <p class="font-bold text-base mb-2">2,350,000 đ/phòng</p>
+                </div>
+                <div>
+                  <button
+                    class="bg-[#77dada] text-white px-5 py-2 rounded-full hover:bg-[#0e4f4f] transition-colors duration-300 text-sm"
+                  >
+                    Đặt ngay
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Nút Xem thêm -->
+      <div class="text-center mt-8">
+        <button
+          class="bg-gray-200 text-gray-800 px-6 py-2 rounded-full hover:bg-gray-300 transition-colors duration-300"
+        >
+          Xem tất cả khách sạn →
+        </button>
+      </div>
+    </div>
+  </div>
+</main>

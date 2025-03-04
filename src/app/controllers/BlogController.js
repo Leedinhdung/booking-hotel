@@ -1,7 +1,7 @@
 class BlogController {
     //[GET]
     index(req, res) {
-        res.render('blog');
+        res.render('pages/blog/blog');
     }
     // //[GET]
     // show(req, res) {
